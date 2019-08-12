@@ -1,0 +1,12 @@
+
+
+<div class="container-fluid">
+    <div *ngIf="listOfUser.length > 0">
+        
+         <div class="row" *ngFor="let user of listOfUser;let i = index" >
+           <div>
+             <h4 >{{i+1}} . {{user}}</h4>
+           </div>
+         </div>
+      </div>
+</div>
